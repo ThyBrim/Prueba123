@@ -36,7 +36,36 @@ Módulo de Código Intermedio
 
 
 ## Requisitos y Dependencias
+* re: Utilizada para expresiones regares en el analisis lexico para identificar los tokens.
+* tkinter: Utilizada para crear la interfaz grafica de usario, incluyendo el módulo scrpññedtext para el área de edición y consola
+* sys: Utilizada dentro de la interfaz para redirigir la salida estándar (stdout) y capaturar lo que imprime el intérprete.
+* io: Utilizada junto con sys para crear un buffer de memoria (StringIO) donde se almacena temporalmente la salda del programa antes de mostrarla en la ventana de la aplicación.
+
 
 ## Instrucciones de Compilación y Ejecución
 
+### 1. Preparar el Entorno
+Asegurarte de estar en ela carpeta raíz del proyecto y activa el entorno virtual 
+    bash
+    .\venv\Scripts\active
+
+### 2. Ejecutar la interfaz Grafica
+La forma mas completa de probar el compilador es mediante su IDE visual, que permite ver los tokens, el árbol sintáctico, la tabla de simbolos y el código intermedio/optimizado
+
+Ejecuta el siguiente comando:
+bash 
+pythin interfaz.py
+
 ## Ejemplos de Uso
+establo 
+    vaca i = 0;
+    vaca limite = 3;
+    vaca suma = 0;
+    
+    muu "Inicio del bucle para";
+    para vaca j = 0 hasta 3;
+        muu "Hola mundo";
+    fin_para;
+
+    muu "Fin del programa";
+fin_establo
