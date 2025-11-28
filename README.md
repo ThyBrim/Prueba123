@@ -57,7 +57,9 @@ bash
 pythin interfaz.py
 
 ## Ejemplos de Uso
+
 establo 
+
     vaca i = 0;
     vaca limite = 3;
     vaca suma = 0;
@@ -68,4 +70,4 @@ establo
     fin_para;
 
     muu "Fin del programa";
-fin_establo
+fin_establo;
